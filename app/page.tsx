@@ -54,7 +54,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-black via-[#1a1814] to-[#1a1814] relative">
       {/* Background Image with Overlay */}
       <div className="fixed inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('/images/fond-min.webp')] bg-cover bg-center bg-fixed" />
+      <div className="absolute inset-0 bg-[url('/images/fond-min.webp')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/80 to-black/90" />
       </div>
 
